@@ -935,6 +935,10 @@ input {
   font-size: 30px;
 }
 
+.font--25 {
+  font-size: 25px;
+}
+
 .font--20 {
   font-size: 20px;
 }
@@ -1106,6 +1110,10 @@ input {
   top: -0.5rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -1136,10 +1144,6 @@ input {
 
 .top-\[426px\] {
   top: 426px;
-}
-
-.top-\[90px\] {
-  top: 90px;
 }
 
 .z-10 {
@@ -1183,6 +1187,10 @@ input {
   margin-top: 0.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1221,6 +1229,10 @@ input {
 
 .mt-\[13px\] {
   margin-top: 13px;
+}
+
+.mt-\[17px\] {
+  margin-top: 17px;
 }
 
 .mt-\[214px\] {
@@ -1265,14 +1277,6 @@ input {
 
 .mt-\[5px\] {
   margin-top: 5px;
-}
-
-.mt-\[16px\] {
-  margin-top: 16px;
-}
-
-.mt-\[17px\] {
-  margin-top: 17px;
 }
 
 .block {
@@ -1325,6 +1329,10 @@ input {
 
 .h-\[157px\] {
   height: 157px;
+}
+
+.h-\[21px\] {
+  height: 21px;
 }
 
 .h-\[31px\] {
@@ -1395,6 +1403,10 @@ input {
   min-height: 630px;
 }
 
+.min-h-\[824px\] {
+  min-height: 824px;
+}
+
 .w-\[157px\] {
   width: 157px;
 }
@@ -1439,6 +1451,10 @@ input {
   width: 564px;
 }
 
+.w-\[646px\] {
+  width: 646px;
+}
+
 .w-\[660px\] {
   width: 660px;
 }
@@ -1468,12 +1484,16 @@ input {
   min-width: 377px;
 }
 
+.max-w-\[1237px\] {
+  max-width: 1237px;
+}
+
 .max-w-\[1356px\] {
   max-width: 1356px;
 }
 
-.max-w-\[646px\] {
-  max-width: 646px;
+.max-w-\[700px\] {
+  max-width: 700px;
 }
 
 .max-w-\[717px\] {
@@ -1601,6 +1621,10 @@ input {
 
 .gap-\[43px\] {
   gap: 43px;
+}
+
+.gap-\[55px\] {
+  gap: 55px;
 }
 
 .gap-\[60px\] {
@@ -1737,9 +1761,19 @@ input {
   padding: 15px;
 }
 
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .px-\[33px\] {
   padding-left: 33px;
   padding-right: 33px;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-12 {
@@ -1758,10 +1792,6 @@ input {
 
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .pb-7 {
@@ -1786,6 +1816,14 @@ input {
 
 .pb-\[57px\] {
   padding-bottom: 57px;
+}
+
+.pb-\[60px\] {
+  padding-bottom: 60px;
+}
+
+.pb-\[71px\] {
+  padding-bottom: 71px;
 }
 
 .pl-\[22px\] {
@@ -1910,6 +1948,11 @@ input {
 .text-custom-black-800 {
   --tw-text-opacity: 1;
   color: rgb(56 56 56 / var(--tw-text-opacity));
+}
+
+.text-custom-black-900 {
+  --tw-text-opacity: 1;
+  color: rgb(41 41 41 / var(--tw-text-opacity));
 }
 
 .text-custom-gray-150 {
