@@ -105,7 +105,7 @@
   h4,
   h5,
   h6 {
-    @apply font-circularStd font-normal leading-none;
+    @apply font-circularStd font-normal leading-tight;
   }
 
   a {
@@ -268,6 +268,14 @@
   );
 }
 
+.banner__gradient-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 232, 0.5) 0%,
+    rgba(255, 255, 255, 0) 20%
+  );
+}
+
 .blur__gradient--slide {
   opacity: 1;
   transition: opacity 0.3s ease; /* Adjust duration and easing as needed */
@@ -276,6 +284,22 @@
 .blur__gradient--slide.hide {
   opacity: 0;
   pointer-events: none;
+}
+
+.blue__gradient1 {
+  background: linear-gradient(
+    90deg,
+    rgba(65, 255, 113, 0.2) 10%,
+    rgba(53, 127, 255, 1) 100%
+  );
+}
+
+.blue__gradient {
+  background: linear-gradient(
+    110deg,
+    rgba(65, 255, 113, 0.2189250700280112) 10%,
+    rgba(53, 127, 255, 1) 108%
+  );
 }
 
 /* Custom CSS */

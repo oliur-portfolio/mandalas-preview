@@ -785,7 +785,7 @@ h3,
   h6 {
   font-family: CircularStd, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.25;
 }
 
 a {
@@ -1098,12 +1098,24 @@ input {
   bottom: -130px;
 }
 
+.-bottom-\[340px\] {
+  bottom: -340px;
+}
+
+.-left-\[115px\] {
+  left: -115px;
+}
+
 .-right-20 {
   right: -5rem;
 }
 
 .-right-\[150px\] {
   right: -150px;
+}
+
+.-right-\[170px\] {
+  right: -170px;
 }
 
 .-top-2 {
@@ -1142,6 +1154,10 @@ input {
   top: 170px;
 }
 
+.top-\[18px\] {
+  top: 18px;
+}
+
 .top-\[426px\] {
   top: 426px;
 }
@@ -1173,6 +1189,10 @@ input {
 
 .-mt-\[1px\] {
   margin-top: -1px;
+}
+
+.mb-\[9px\] {
+  margin-bottom: 9px;
 }
 
 .ml-auto {
@@ -1217,6 +1237,10 @@ input {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .mt-\[10px\] {
@@ -1379,6 +1403,10 @@ input {
   height: 691px;
 }
 
+.h-\[738px\] {
+  height: 738px;
+}
+
 .h-\[calc\(100\%\*1\.5\)\] {
   height: calc(100% * 1.5);
 }
@@ -1403,8 +1431,20 @@ input {
   min-height: 515px;
 }
 
+.min-h-\[527px\] {
+  min-height: 527px;
+}
+
+.min-h-\[532px\] {
+  min-height: 532px;
+}
+
 .min-h-\[630px\] {
   min-height: 630px;
+}
+
+.min-h-\[634px\] {
+  min-height: 634px;
 }
 
 .min-h-\[824px\] {
@@ -1455,12 +1495,20 @@ input {
   width: 564px;
 }
 
+.w-\[640px\] {
+  width: 640px;
+}
+
 .w-\[646px\] {
   width: 646px;
 }
 
 .w-\[660px\] {
   width: 660px;
+}
+
+.w-\[738px\] {
+  width: 738px;
 }
 
 .w-\[883px\] {
@@ -1488,8 +1536,24 @@ input {
   min-width: 377px;
 }
 
+.max-w-\[1000px\] {
+  max-width: 1000px;
+}
+
+.max-w-\[1087px\] {
+  max-width: 1087px;
+}
+
+.max-w-\[1199px\] {
+  max-width: 1199px;
+}
+
 .max-w-\[1237px\] {
   max-width: 1237px;
+}
+
+.max-w-\[1341px\] {
+  max-width: 1341px;
 }
 
 .max-w-\[1356px\] {
@@ -1504,8 +1568,20 @@ input {
   max-width: 717px;
 }
 
+.max-w-\[725px\] {
+  max-width: 725px;
+}
+
 .max-w-\[727px\] {
   max-width: 727px;
+}
+
+.max-w-\[765px\] {
+  max-width: 765px;
+}
+
+.max-w-\[807px\] {
+  max-width: 807px;
 }
 
 .max-w-\[817px\] {
@@ -1514,10 +1590,6 @@ input {
 
 .max-w-\[850px\] {
   max-width: 850px;
-}
-
-.max-w-\[1199px\] {
-  max-width: 1199px;
 }
 
 .flex-1 {
@@ -1657,6 +1729,11 @@ input {
        column-gap: 27px;
 }
 
+.gap-x-\[34px\] {
+  -moz-column-gap: 34px;
+       column-gap: 34px;
+}
+
 .gap-y-8 {
   row-gap: 2rem;
 }
@@ -1665,17 +1742,14 @@ input {
   row-gap: 18px;
 }
 
-.gap-x-\[34px\] {
-  -moz-column-gap: 34px;
-       column-gap: 34px;
-}
-
-.gap-y-\[34px\] {
-  row-gap: 34px;
-}
-
 .gap-y-\[38px\] {
   row-gap: 38px;
+}
+
+.space-y-\[35px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(35px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(35px * var(--tw-space-y-reverse));
 }
 
 .space-y-\[50px\] > :not([hidden]) ~ :not([hidden]) {
@@ -1765,6 +1839,11 @@ input {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1815,8 +1894,16 @@ input {
   padding-bottom: 2.5rem;
 }
 
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pb-\[105px\] {
+  padding-bottom: 105px;
 }
 
 .pb-\[13px\] {
@@ -1843,6 +1930,10 @@ input {
   padding-bottom: 60px;
 }
 
+.pb-\[65px\] {
+  padding-bottom: 65px;
+}
+
 .pb-\[71px\] {
   padding-bottom: 71px;
 }
@@ -1867,6 +1958,10 @@ input {
   padding-top: 0.5rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .pt-\[186px\] {
   padding-top: 186px;
 }
@@ -1879,16 +1974,16 @@ input {
   padding-top: 50px;
 }
 
+.pt-\[56px\] {
+  padding-top: 56px;
+}
+
 .pt-\[65px\] {
   padding-top: 65px;
 }
 
-.pb-\[65px\] {
-  padding-bottom: 65px;
-}
-
-.pt-\[56px\] {
-  padding-top: 56px;
+.pt-\[86px\] {
+  padding-top: 86px;
 }
 
 .text-center {
@@ -2105,6 +2200,14 @@ input {
   );
 }
 
+.banner__gradient-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 236, 232, 0.5) 0%,
+    rgba(255, 255, 255, 0) 20%
+  );
+}
+
 .blur__gradient--slide {
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -2114,6 +2217,22 @@ input {
 .blur__gradient--slide.hide {
   opacity: 0;
   pointer-events: none;
+}
+
+.blue__gradient1 {
+  background: linear-gradient(
+    90deg,
+    rgba(65, 255, 113, 0.2) 10%,
+    rgba(53, 127, 255, 1) 100%
+  );
+}
+
+.blue__gradient {
+  background: linear-gradient(
+    110deg,
+    rgba(65, 255, 113, 0.2189250700280112) 10%,
+    rgba(53, 127, 255, 1) 108%
+  );
 }
 
 /* Custom CSS */
