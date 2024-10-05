@@ -15,10 +15,13 @@ module.exports = {
       colors: {
         "custom-white": "#fff",
         "custom-white-100": "#F6F6F6",
+        "custom-white-200": "#F4F4F4",
         "custom-white-400": "#EdECE9",
         "custom-white-500": "#EEECE7",
         "custom-black": "#000",
+        "custom-black-50": "#2F2F2F",
         "custom-black-100": "#040404",
+        "custom-black-120": "#3A3A3A",
         "custom-black-150": "#363636",
         "custom-black-200": "#323232",
         "custom-black-400": "#262626",
