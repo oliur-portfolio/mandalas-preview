@@ -1,14 +1,14 @@
-// New Slider
-var swiper = new Swiper(".swiper--details", {
+// Thanks Page Slider
+var swiperThanks = new Swiper(".swiper--thanks", {
   slidesPerView: 3.5,
   slidesPerGroup: 3,
   spaceBetween: 34,
   navigation: {
-    nextEl: ".custom__pagination-nav--next",
-    prevEl: ".custom__pagination-nav--previous",
+    nextEl: ".custom__pagination-nav--next-thanks",
+    prevEl: ".custom__pagination-nav--previous-thanks",
   },
   pagination: {
-    el: ".custom__swiper-pagination",
+    el: ".custom__swiper-pagination--thanks",
     clickable: true,
     renderBullet: function (index, className) {
       return (
@@ -16,6 +16,54 @@ var swiper = new Swiper(".swiper--details", {
         className +
         '">' +
         (index + 1) +
+        "</button>"
+      );
+    },
+  },
+});
+
+// Category Details Page Slider
+var swiperDetails = new Swiper(".swiper--details", {
+  slidesPerView: 2.5,
+  slidesPerGroup: 3,
+  spaceBetween: 34,
+  navigation: {
+    nextEl: ".custom__pagination-nav--next-details",
+    prevEl: ".custom__pagination-nav--previous-details",
+  },
+  pagination: {
+    el: ".custom__swiper-pagination--details",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return (
+        '<button class="custom__pagination-number ' +
+        className +
+        '">' +
+        (index + 1) +
+        "</button>"
+      );
+    },
+  },
+});
+
+// Category Accessories Page Slider
+var swiperAccessories = new Swiper(".swiper--accessories", {
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  spaceBetween: 25,
+  navigation: {
+    nextEl: ".custom__pagination-nav--next-accessories",
+    prevEl: ".custom__pagination-nav--previous-accessories",
+  },
+  pagination: {
+    el: ".custom__swiper-pagination--accessories",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return (
+        '<button class="custom__pagination-number ' +
+        className +
+        '">' +
+        "<span></span>" +
         "</button>"
       );
     },
