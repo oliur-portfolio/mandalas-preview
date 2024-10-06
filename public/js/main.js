@@ -1,3 +1,27 @@
+// New Slider
+var swiper = new Swiper(".swiper--details", {
+  slidesPerView: 3.5,
+  slidesPerGroup: 3,
+  spaceBetween: 34,
+  navigation: {
+    nextEl: ".custom__pagination-nav--next",
+    prevEl: ".custom__pagination-nav--previous",
+  },
+  pagination: {
+    el: ".custom__swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return (
+        '<button class="custom__pagination-number ' +
+        className +
+        '">' +
+        (index + 1) +
+        "</button>"
+      );
+    },
+  },
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   // Blur Scroll Card
   function initScrollBlurEffect(section) {
