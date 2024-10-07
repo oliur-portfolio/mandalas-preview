@@ -18,57 +18,268 @@
   </head>
   <body>
     <!-- Header Area -->
-    <header class="pt-[30px] absolute top-0 left-0 w-full z-50">
-      <div class="wrapper">
-        <nav
-          aria-label="Main Navigation"
-          class="flex items-center justify-between"
-        >
-          <a href="#" class="w-[157px] h-[157px]">
-            <img src="images/logo.png" alt="logo" />
-          </a>
+    <header class="header relative">
+      <!-- Main Header -->
+      <div class="pt-[30px] absolute top-0 left-0 w-full z-[9999]">
+        <div class="wrapper">
+          <nav
+            aria-label="Main Navigation"
+            class="flex items-center justify-between"
+          >
+            <a href="#" class="w-[157px] h-[157px]">
+              <img src="images/logo.png" alt="logo" />
+            </a>
 
-          <div class="flex items-center gap-4">
-            <ul class="flex items-center gap-[7px]">
-              <li>
-                <a href="#" class="nav__link">Home</a>
-              </li>
+            <div class="flex items-center gap-4">
+              <ul class="flex items-center gap-[7px]">
+                <li>
+                  <a href="#" class="nav__link nav__link--active">Home</a>
+                </li>
 
-              <li>
-                <a href="#" class="nav__link nav__link--active">Categories</a>
-              </li>
+                <li>
+                  <a href="#" class="nav__link nav__link--category"
+                    >Categories</a
+                  >
+                </li>
 
-              <li>
-                <a href="#" class="nav__link">Accessories</a>
-              </li>
+                <li>
+                  <a href="#" class="nav__link">Accessories</a>
+                </li>
 
-              <li>
-                <a href="#" class="nav__link">About</a>
-              </li>
+                <li>
+                  <a href="#" class="nav__link">About</a>
+                </li>
 
-              <li>
-                <a href="#" class="nav__link">Upload Area</a>
-              </li>
-            </ul>
+                <li>
+                  <a href="#" class="nav__link">Upload Area</a>
+                </li>
+              </ul>
 
-            <div
-              class="w-[304px] h-[65px] relative custom__shadow--xl rounded-[11px]"
-            >
-              <input
-                type="text"
-                placeholder="Search bar"
-                class="w-full h-full rounded-[11px] border-none py-[17px] pl-[22px] pr-16 text-[30px] leading-tight font-normal font-brandon text-custom-black placeholder:text-custom-gray-800/80 focus:ring-0"
-              />
-
-              <button
-                class="w-[34px] h-[34px] absolute top-1/2 -translate-y-1/2 right-[17px] z-20"
+              <div
+                class="w-[304px] h-[65px] relative custom__shadow--xl rounded-[11px]"
               >
-                <img src="images/search.svg" alt="search" />
-              </button>
+                <input
+                  type="text"
+                  placeholder="Search bar"
+                  class="w-full h-full rounded-[11px] border-none py-[17px] pl-[22px] pr-16 text-[30px] leading-tight font-normal font-brandon text-custom-black placeholder:text-custom-gray-800/80 focus:ring-0"
+                />
+
+                <button
+                  class="w-[34px] h-[34px] absolute top-1/2 -translate-y-1/2 right-[17px] z-20"
+                >
+                  <img src="images/search.svg" alt="search" />
+                </button>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
+      <!-- Main Header -->
+
+      <!-- Header Category -->
+      <div
+        class="opacity-0 invisible submenu__category bg-custom-white pt-[187px] pb-[42px] absolute top-0 left-0 w-full z-[999] custom__shadow--navbar transition-all duration-200 ease-in-out"
+      >
+        <div class="wrapper">
+          <div class="grid grid-cols-4 gap-[27px]">
+            <!-- Single Card -->
+            <div class="bg-custom-gray-100 rounded-[11px] p-[10px] pb-[30px]">
+              <div
+                class="flex items-center justify-center gap-[15px] bg-custom-white rounded-[11px] py-[22px]"
+              >
+                <img
+                  class="w-fit h-[31px] object-contain"
+                  src="images/video-games.png"
+                  alt=""
+                />
+                <h3 class="font--30 font-bold text-custom-black">Videogames</h3>
+              </div>
+
+              <ul class="mt-7 ml-5 space-y-[10px]">
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Single Card -->
+
+            <!-- Single Card -->
+            <div class="bg-custom-gray-100 rounded-[11px] p-[10px] pb-[30px]">
+              <div
+                class="flex items-center justify-center gap-[15px] bg-custom-white rounded-[11px] py-[22px]"
+              >
+                <img
+                  class="w-fit h-[31px] object-contain"
+                  src="images/video-games.png"
+                  alt=""
+                />
+                <h3 class="font--30 font-bold text-custom-black">Videogames</h3>
+              </div>
+
+              <ul class="mt-7 ml-5 space-y-[10px]">
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Single Card -->
+
+            <!-- Single Card -->
+            <div class="bg-custom-gray-100 rounded-[11px] p-[10px] pb-[30px]">
+              <div
+                class="flex items-center justify-center gap-[15px] bg-custom-white rounded-[11px] py-[22px]"
+              >
+                <img
+                  class="w-fit h-[31px] object-contain"
+                  src="images/video-games.png"
+                  alt=""
+                />
+                <h3 class="font--30 font-bold text-custom-black">Videogames</h3>
+              </div>
+
+              <ul class="mt-7 ml-5 space-y-[10px]">
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font--20 leading-none font-circularStd font-normal text-custom-gray-600/80 underline"
+                    >Super Mario</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Single Card -->
+
+            <!-- Single Card -->
+
+            <a
+              href="#"
+              class="bg-custom-gray-100 rounded-[11px] p-[10px] pb-[30px] font--25 font-medium font-circularStd flex items-center justify-center flex-col gap-[14px] transition-all duration-150 ease-in-out hover:bg-custom-yellow"
+            >
+              <span>See all categories</span>
+              <img
+                class="w-[41px] h-[41px]"
+                src="images/circle-arrow.svg"
+                alt=""
+              />
+            </a>
+            <!-- Single Card -->
+          </div>
+        </div>
+      </div>
+      <!-- Header Category -->
     </header>
     <!-- Header Area -->
 
