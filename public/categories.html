@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Header Area -->
-    <header class="header relative">
+    <header class="header relative hidden">
       <!-- Main Header -->
       <div class="pt-[30px] absolute top-0 left-0 w-full z-[9999]">
         <div class="wrapper">
@@ -287,7 +287,7 @@
     <main>
       <!-- Hero Area -->
       <section
-        class="min-h-[824px] bg-custom-white-400 relative overflow-hidden pt-[186px] flex flex-col items-end justify-end pb-[71px] custom__shadow--md"
+        class="min-h-[680px] md:min-h-[824px] bg-custom-white-400 relative overflow-hidden flex flex-col items-end justify-end pb-[71px] custom__shadow--md"
       >
         <img
           class="w-[calc(100%+240px)] h-[425px] absolute bottom-0 left-1/2 -translate-x-1/2 object-cover"
@@ -303,7 +303,7 @@
 
         <div class="wrapper">
           <div class="max-w-[1237px] w-full mx-auto text-center relative z-30">
-            <h1 class="font--90 text-custom-black-400">
+            <h1 class="text-[44px] font--90 text-custom-black-400">
               DISCOVER OUR
               <span class="custom__text-gradient">CATEGORIES</span>
             </h1>
@@ -313,99 +313,101 @@
             </h3>
 
             <p
-              class="text-custom-gray-200 max-w-[817px] w-full mx-auto mt-[10px]"
+              class="text-custom-gray-200 max-w-[817px] w-full mx-auto mt-3 md:mt-[10px]"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
             <div
-              class="w-[646px] h-[65px] mx-auto relative custom__shadow--xl rounded-[11px] mt-10"
+              class="w-full md:w-[646px] h-[45px] md:h-[65px] mx-auto relative custom__shadow--xl rounded-[11px] mt-[30px] md:mt-10"
             >
               <input
                 type="text"
                 placeholder="Search bar"
-                class="w-full h-full rounded-[11px] border-none py-[17px] pl-[22px] pr-16 text-[30px] leading-tight font-normal font-brandon text-custom-black placeholder:text-custom-gray-800/80 focus:ring-0"
+                class="w-full h-full rounded-[11px] border-none px-[22px] py-[14px] md:py-[17px] md:pl-[22px] md:pr-16 text-[15px] md:text-[30px] leading-tight font-normal font-brandon text-custom-black placeholder:text-custom-gray-800/80 focus:ring-0"
               />
 
               <button
-                class="w-[34px] h-[34px] absolute top-1/2 -translate-y-1/2 right-[17px] z-20"
+                class="w-4 h-4 md:w-[34px] md:h-[34px] absolute top-1/2 -translate-y-1/2 right-[17px] z-20"
               >
                 <img src="images/search.svg" alt="search" />
               </button>
             </div>
 
-            <div class="mt-[46px] flex gap-x-3 gap-y-[18px] flex-wrap">
+            <div
+              class="mt-[30px] md:mt-[46px] flex justify-center gap-[7px] md:gap-x-3 md:gap-y-[18px] flex-wrap"
+            >
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Videogames</span>
+                <span class="md:flex-1">Videogames</span>
               </a>
 
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Movies</span>
+                <span class="md:flex-1">Movies</span>
               </a>
 
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Animals</span>
+                <span class="md:flex-1">Animals</span>
               </a>
 
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Princess</span>
+                <span class="md:flex-1">Princess</span>
               </a>
 
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Fantasy</span>
+                <span class="md:flex-1">Fantasy</span>
               </a>
 
               <a
                 href="#"
-                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[17px] px-[25px] rounded-[58px] hover:underline"
+                class="font--30 leading-none font-medium flex items-center justify-center gap-[14px] bg-custom-white text-custom-black w-fit py-[10px] px-4 md:py-[17px] md:px-[25px] rounded-[58px] hover:underline"
               >
                 <img
-                  class="w-fit h-[31px]"
+                  class="w-fit h-[24px] md:h-[31px]"
                   src="images/video-games.png"
                   alt="video games"
                 />
-                <span class="flex-1">Fashion</span>
+                <span class="md:flex-1">Fashion</span>
               </a>
             </div>
           </div>
@@ -415,7 +417,7 @@
 
       <div class="bg-custom-gray-300 mt-3">
         <div class="wrapper">
-          <div class="py-10 flex items-center gap-[55px]">
+          <div class="py-10 flex items-center gap-[55px] hidden">
             <button
               class="flex items-center gap-5 text-custom-black-900 font--30 font-circularStd font-normal"
             >
@@ -424,42 +426,42 @@
             </button>
 
             <ul class="flex-1 flex items-center justify-between gap-5">
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
                   Most Popular
                 </button>
               </li>
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
                   Most Popular
                 </button>
               </li>
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
                   Most Popular
                 </button>
               </li>
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
                   Most Popular
                 </button>
               </li>
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
                   Most Popular
                 </button>
               </li>
-              <li>
+              <li class="min-w-max">
                 <button
                   class="font-brandon font--25 font-normal text-custom-black-900 underline"
                 >
@@ -470,10 +472,10 @@
           </div>
         </div>
 
-        <div class="space-y-[50px]">
+        <div class="space-y-6">
           <!-- Spiderman Category -->
           <section
-            class="pt-12 pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
+            class="py-10 md:pt-12 md:pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
           >
             <div class="wrapper">
               <div class="">
@@ -481,7 +483,7 @@
               </div>
 
               <div
-                class="grid grid-cols-3 gap-x-[27px] gap-y-8 mt-10 max-w-[1356px] w-full mx-auto"
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-x-[27px] xl:gap-y-8 mt-6 md:mt-10 max-w-[1356px] w-full mx-auto"
               >
                 <!-- Single Item -->
                 <div
@@ -500,7 +502,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -524,7 +529,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -548,7 +556,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -572,7 +583,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -596,7 +610,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -620,7 +637,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -633,7 +653,7 @@
 
           <!-- Latest Added -->
           <section
-            class="pt-12 pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
+            class="py-10 md:pt-12 md:pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
           >
             <div class="wrapper">
               <div class="">
@@ -641,7 +661,7 @@
               </div>
 
               <div
-                class="grid grid-cols-3 gap-x-[27px] gap-y-8 mt-10 max-w-[1356px] w-full mx-auto"
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-x-[27px] xl:gap-y-8 mt-6 md:mt-10 max-w-[1356px] w-full mx-auto"
               >
                 <!-- Single Item -->
                 <div
@@ -660,7 +680,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -684,7 +707,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -708,7 +734,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -721,7 +750,7 @@
 
           <!-- KIDS FAVOURITES -->
           <section
-            class="pt-12 pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
+            class="py-10 md:pt-12 md:pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
           >
             <div class="wrapper">
               <div class="">
@@ -729,7 +758,7 @@
               </div>
 
               <div
-                class="grid grid-cols-3 gap-x-[27px] gap-y-8 mt-10 max-w-[1356px] w-full mx-auto"
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-x-[27px] xl:gap-y-8 mt-6 md:mt-10 max-w-[1356px] w-full mx-auto"
               >
                 <!-- Single Item -->
                 <div
@@ -748,7 +777,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -772,7 +804,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -796,7 +831,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -820,7 +858,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -844,7 +885,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -868,7 +912,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -892,7 +939,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -916,7 +966,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -940,7 +993,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -953,7 +1009,7 @@
 
           <!-- ADULTS CATEGORIES -->
           <section
-            class="pt-12 pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
+            class="py-10 md:pt-12 md:pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
           >
             <div class="wrapper">
               <div class="">
@@ -963,7 +1019,7 @@
               </div>
 
               <div
-                class="grid grid-cols-3 gap-x-[27px] gap-y-8 mt-10 max-w-[1356px] w-full mx-auto"
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-x-[27px] xl:gap-y-8 mt-6 md:mt-10 max-w-[1356px] w-full mx-auto"
               >
                 <!-- Single Item -->
                 <div
@@ -982,7 +1038,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1006,7 +1065,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1030,7 +1092,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1054,7 +1119,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1078,7 +1146,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1102,7 +1173,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1115,7 +1189,7 @@
 
           <!-- SEASONAL -->
           <section
-            class="pt-12 pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
+            class="py-10 md:pt-12 md:pb-[60px] custom__shadow--2xl relative z-20 bg-custom-white"
           >
             <div class="wrapper">
               <div class="">
@@ -1123,7 +1197,7 @@
               </div>
 
               <div
-                class="grid grid-cols-3 gap-x-[27px] gap-y-8 mt-10 max-w-[1356px] w-full mx-auto"
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[14px] xl:gap-x-[27px] xl:gap-y-8 mt-6 md:mt-10 max-w-[1356px] w-full mx-auto"
               >
                 <!-- Single Item -->
                 <div
@@ -1142,7 +1216,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1166,7 +1243,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1190,7 +1270,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1214,7 +1297,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1238,7 +1324,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1262,7 +1351,10 @@
                       Animals
                     </h4>
 
-                    <a href="#" class="w-[33px] h-[33px]">
+                    <a
+                      href="#"
+                      class="w-[17px] h-[17px] md:w-[33px] md:h-[33px]"
+                    >
                       <img src="images/circle-arrow.svg" alt="arrow" />
                     </a>
                   </div>
@@ -1277,7 +1369,7 @@
 
       <!-- Share Creativity -->
       <section
-        class="relative min-h-[630px] overflow-hidden bg-custom-white-400"
+        class="hidden relative min-h-[630px] overflow-hidden bg-custom-white-400"
       >
         <img
           class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%*1.2)] h-[calc(100%*1.5)] object-cover z-10"
@@ -1326,7 +1418,7 @@
 
       <!-- Newsletter Area -->
       <section
-        class="bg-custom-yellow pt-[65px] pb-[50px] relative custom__shadow--2xl"
+        class="hidden bg-custom-yellow pt-[65px] pb-[50px] relative custom__shadow--2xl"
       >
         <div class="wrapper">
           <div class="">
@@ -1448,7 +1540,7 @@
     <!-- Main Content -->
 
     <!-- Footer Area -->
-    <footer class="bg-custom-white-500 py-12">
+    <footer class="hidden bg-custom-white-500 py-12">
       <div class="wrapper">
         <div class="flex items-center gap-[60px]">
           <a href="#" class="w-fit h-[110px]">
