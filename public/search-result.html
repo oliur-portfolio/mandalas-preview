@@ -12,6 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Custom CSS File -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <meta name="theme-color" content="#fafafa" />
@@ -347,124 +351,151 @@
                 </p>
               </div>
 
-              <div
-                class="flex gap-5 overflow-x-auto overflow-y-hidden mt-7 custom__scrollbar custom__scrollbar--slide pb-[30px]"
-              >
-                <!-- Single Item -->
-                <div
-                  class="bg-custom-gray-100 p-5 pb-7 min-w-[377px] w-[377px]"
-                >
-                  <img
-                    class="object-cover w-full h-auto aspect-[1/1.05]"
-                    src="images/super-mario.jpg"
-                    alt="mario"
-                  />
+              <!-- Slider -->
+              <div class="relative swiper__default-slider mt-7">
+                <div class="swiper swiper--default">
+                  <div class="swiper-wrapper">
+                    <!-- Single Item -->
+                    <div class="swiper-slide bg-custom-gray-100 p-5 pb-7">
+                      <img
+                        class="object-cover w-full h-auto aspect-[1/1.05]"
+                        src="images/super-mario.jpg"
+                        alt="mario"
+                      />
 
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
-                      >
-                        SuperMario Jumping
-                      </h4>
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            SuperMario Jumping
+                          </h4>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
                     </div>
+                    <!-- Single Item -->
 
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
+                    <!-- Single Item -->
+                    <div class="swiper-slide bg-custom-gray-100 p-5 pb-7">
+                      <img
+                        class="object-cover w-full h-auto aspect-[1/1.05]"
+                        src="images/super-mario.jpg"
+                        alt="mario"
+                      />
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            SuperMario Jumping
+                          </h4>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="swiper-slide bg-custom-gray-100 p-5 pb-7">
+                      <img
+                        class="object-cover w-full h-auto aspect-[1/1.05]"
+                        src="images/super-mario.jpg"
+                        alt="mario"
+                      />
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            SuperMario Jumping
+                          </h4>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="swiper-slide bg-custom-gray-100 p-5 pb-7">
+                      <img
+                        class="object-cover w-full h-auto aspect-[1/1.05]"
+                        src="images/super-mario.jpg"
+                        alt="mario"
+                      />
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            SuperMario Jumping
+                          </h4>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="swiper-slide bg-custom-gray-100 p-5 pb-7">
+                      <img
+                        class="object-cover w-full h-auto aspect-[1/1.05]"
+                        src="images/super-mario.jpg"
+                        alt="mario"
+                      />
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            SuperMario Jumping
+                          </h4>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
                   </div>
                 </div>
-                <!-- Single Item -->
 
-                <!-- Single Item -->
                 <div
-                  class="bg-custom-gray-100 p-5 pb-7 min-w-[377px] w-[377px]"
+                  class="flex items-center justify-between gap-[18px] absolute top-1/2 left-1/2 w-[110%] -translate-y-1/2 -translate-x-1/2 z-50"
                 >
-                  <img
-                    class="object-cover w-full h-auto aspect-[1/1.05]"
-                    src="images/super-mario.jpg"
-                    alt="mario"
-                  />
+                  <button
+                    class="custom__pagination-nav custom__pagination-nav--previous-default"
+                    aria-label="Previous page"
+                  >
+                    <img src="images/arrow-left.svg" alt="arrow" />
+                  </button>
 
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
-                      >
-                        SuperMario Jumping
-                      </h4>
-                    </div>
-
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
-                  </div>
+                  <button
+                    class="custom__pagination-nav custom__pagination-nav--next-default"
+                    aria-label="Next page"
+                  >
+                    <img src="images/arrow-right.svg" alt="arrow" />
+                  </button>
                 </div>
-                <!-- Single Item -->
-
-                <!-- Single Item -->
-                <div
-                  class="bg-custom-gray-100 p-5 pb-7 min-w-[377px] w-[377px]"
-                >
-                  <img
-                    class="object-cover w-full h-auto aspect-[1/1.05]"
-                    src="images/super-mario.jpg"
-                    alt="mario"
-                  />
-
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
-                      >
-                        SuperMario Jumping
-                      </h4>
-                    </div>
-
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
-                  </div>
-                </div>
-                <!-- Single Item -->
-
-                <!-- Single Item -->
-                <div
-                  class="bg-custom-gray-100 p-5 pb-7 min-w-[377px] w-[377px]"
-                >
-                  <img
-                    class="object-cover w-full h-auto aspect-[1/1.05]"
-                    src="images/super-mario.jpg"
-                    alt="mario"
-                  />
-
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
-                      >
-                        SuperMario Jumping
-                      </h4>
-                    </div>
-
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
-                  </div>
-                </div>
-                <!-- Single Item -->
               </div>
-
-              <p
-                class="flex items-center gap-[18px] font--20 text-custom-black-500 font-circularStd font-normal relative z-40 mt-2"
-              >
-                <span>Scroll to see more</span>
-                <img
-                  class="w-fit h-[14px]"
-                  src="images/right-arrow.svg"
-                  alt=""
-                />
-              </p>
+              <!-- Slider -->
             </div>
           </section>
           <!-- Colouring page -->
@@ -494,104 +525,241 @@
                 </p>
               </div>
 
-              <div
-                class="flex gap-5 overflow-x-auto overflow-y-hidden mt-7 custom__scrollbar custom__scrollbar--slide pb-[30px]"
-              >
-                <!-- Single Item -->
-                <div
-                  class="bg-custom-gray-100 rounded-xl p-5 pb-7 min-w-[377px] w-[377px]"
-                >
-                  <div
-                    class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
-                  >
-                    <img
-                      class="object-cover rounded-xl"
-                      src="images/spiderman-pack.png"
-                      alt="spiderman"
-                    />
-
-                    <img
-                      class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
-                      src="images/logo.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
+              <!-- Slider -->
+              <div class="relative swiper__default-slider mt-7">
+                <div class="swiper swiper--default">
+                  <div class="swiper-wrapper">
+                    <!-- Single Item -->
+                    <div
+                      class="swiper-slide bg-custom-gray-100 rounded-xl p-5 pb-7"
+                    >
+                      <div
+                        class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
                       >
-                        Spiderman Pack
-                      </h4>
+                        <img
+                          class="object-cover rounded-xl"
+                          src="images/spiderman-pack.png"
+                          alt="spiderman"
+                        />
 
-                      <p
-                        class="font--20 text-custom-gray-400 font-circularStd mt-1"
-                      >
-                        25 Pages
-                      </p>
+                        <img
+                          class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
+                          src="images/logo.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            Spiderman Pack
+                          </h4>
+
+                          <p
+                            class="font--20 text-custom-gray-400 font-circularStd mt-1"
+                          >
+                            25 Pages
+                          </p>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
                     </div>
+                    <!-- Single Item -->
 
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
+                    <!-- Single Item -->
+                    <div
+                      class="swiper-slide bg-custom-gray-100 rounded-xl p-5 pb-7"
+                    >
+                      <div
+                        class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
+                      >
+                        <img
+                          class="object-cover rounded-xl"
+                          src="images/spiderman-pack.png"
+                          alt="spiderman"
+                        />
+
+                        <img
+                          class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
+                          src="images/logo.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            Spiderman Pack
+                          </h4>
+
+                          <p
+                            class="font--20 text-custom-gray-400 font-circularStd mt-1"
+                          >
+                            25 Pages
+                          </p>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div
+                      class="swiper-slide bg-custom-gray-100 rounded-xl p-5 pb-7"
+                    >
+                      <div
+                        class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
+                      >
+                        <img
+                          class="object-cover rounded-xl"
+                          src="images/spiderman-pack.png"
+                          alt="spiderman"
+                        />
+
+                        <img
+                          class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
+                          src="images/logo.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            Spiderman Pack
+                          </h4>
+
+                          <p
+                            class="font--20 text-custom-gray-400 font-circularStd mt-1"
+                          >
+                            25 Pages
+                          </p>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div
+                      class="swiper-slide bg-custom-gray-100 rounded-xl p-5 pb-7"
+                    >
+                      <div
+                        class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
+                      >
+                        <img
+                          class="object-cover rounded-xl"
+                          src="images/spiderman-pack.png"
+                          alt="spiderman"
+                        />
+
+                        <img
+                          class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
+                          src="images/logo.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            Spiderman Pack
+                          </h4>
+
+                          <p
+                            class="font--20 text-custom-gray-400 font-circularStd mt-1"
+                          >
+                            25 Pages
+                          </p>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div
+                      class="swiper-slide bg-custom-gray-100 rounded-xl p-5 pb-7"
+                    >
+                      <div
+                        class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
+                      >
+                        <img
+                          class="object-cover rounded-xl"
+                          src="images/spiderman-pack.png"
+                          alt="spiderman"
+                        />
+
+                        <img
+                          class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
+                          src="images/logo.png"
+                          alt=""
+                        />
+                      </div>
+
+                      <div class="flex items-center justify-between mt-7">
+                        <div class="">
+                          <h4
+                            class="font--20 text-custom-black-500 font-circularStd font-medium"
+                          >
+                            Spiderman Pack
+                          </h4>
+
+                          <p
+                            class="font--20 text-custom-gray-400 font-circularStd mt-1"
+                          >
+                            25 Pages
+                          </p>
+                        </div>
+
+                        <a href="#" class="w-[41px] h-[41px]">
+                          <img src="images/circle-arrow.svg" alt="arrow" />
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Single Item -->
                   </div>
                 </div>
-                <!-- Single Item -->
 
-                <!-- Single Item -->
                 <div
-                  class="bg-custom-gray-100 rounded-xl p-5 pb-7 min-w-[377px] w-[377px]"
+                  class="flex items-center justify-between gap-[18px] absolute top-1/2 left-1/2 w-[110%] -translate-y-1/2 -translate-x-1/2 z-50"
                 >
-                  <div
-                    class="relative w-full h-auto aspect-[1/1.05] rounded-xl"
+                  <button
+                    class="custom__pagination-nav custom__pagination-nav--previous-default"
+                    aria-label="Previous page"
                   >
-                    <img
-                      class="object-cover rounded-xl"
-                      src="images/spiderman-pack.png"
-                      alt="spiderman"
-                    />
+                    <img src="images/arrow-left.svg" alt="arrow" />
+                  </button>
 
-                    <img
-                      class="w-[50px] h-auto absolute left-1/2 -translate-x-1/2 bottom-5 z-10"
-                      src="images/logo.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div class="flex items-center justify-between mt-7">
-                    <div class="">
-                      <h4
-                        class="font--20 text-custom-black-500 font-circularStd font-medium"
-                      >
-                        Spiderman Pack
-                      </h4>
-
-                      <p
-                        class="font--20 text-custom-gray-400 font-circularStd mt-1"
-                      >
-                        25 Pages
-                      </p>
-                    </div>
-
-                    <a href="#" class="w-[41px] h-[41px]">
-                      <img src="images/circle-arrow.svg" alt="arrow" />
-                    </a>
-                  </div>
+                  <button
+                    class="custom__pagination-nav custom__pagination-nav--next-default"
+                    aria-label="Next page"
+                  >
+                    <img src="images/arrow-right.svg" alt="arrow" />
+                  </button>
                 </div>
-                <!-- Single Item -->
               </div>
-
-              <p
-                class="flex items-center gap-[18px] font--20 text-custom-black-500 font-circularStd font-normal relative z-40 mt-2"
-              >
-                <span>Scroll to see more</span>
-                <img
-                  class="w-fit h-[14px]"
-                  src="images/right-arrow.svg"
-                  alt=""
-                />
-              </p>
+              <!-- Slider -->
             </div>
           </section>
           <!-- Spiderman Pack -->
@@ -1146,6 +1314,7 @@
     <!-- Footer Area -->
 
     <!-- JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

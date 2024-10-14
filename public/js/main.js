@@ -46,6 +46,30 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Home Page Slider
+  document
+    .querySelectorAll(".swiper--default")
+    .forEach(function (swiperContainer) {
+      const nextEl = swiperContainer
+        .closest(".swiper__default-slider")
+        .querySelector(".custom__pagination-nav--next-default");
+
+      const prevEl = swiperContainer
+        .closest(".swiper__default-slider")
+        .querySelector(".custom__pagination-nav--previous-default");
+
+      var swiperDefault = new Swiper(swiperContainer, {
+        slidesPerView: 3.5,
+        slidesPerGroup: 3,
+        spaceBetween: 25,
+        navigation: {
+          nextEl: nextEl,
+          prevEl: prevEl,
+        },
+        loop: false,
+      });
+    });
+
   // Thanks Page Slider
   var swiperThanks = new Swiper(".swiper--thanks", {
     slidesPerView: 3.5,

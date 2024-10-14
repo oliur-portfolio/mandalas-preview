@@ -48,7 +48,7 @@ module.exports = {
         "custom-orange-400": "#FF6a5b",
       },
       screens: {
-        "2xl": "1750px",
+        "2xl": "1512px",
       },
     },
   },
