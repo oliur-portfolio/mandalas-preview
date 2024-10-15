@@ -67,6 +67,25 @@ document.addEventListener("DOMContentLoaded", () => {
           prevEl: prevEl,
         },
         loop: false,
+        breakpoints: {
+          0: {
+            slidesPerView: 1.3,
+            slidesPerGroup: 1,
+            spaceBetween: 16,
+          },
+          768: {
+            slidesPerView: 2.3,
+            slidesPerGroup: 2,
+          },
+          991: {
+            slidesPerView: 2.8,
+          },
+          1280: {
+            slidesPerView: 3.5,
+            slidesPerGroup: 3,
+            spaceBetween: 25,
+          },
+        },
       });
     });
 
@@ -74,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
   var swiperThanks = new Swiper(".swiper--thanks", {
     slidesPerView: 3.5,
     slidesPerGroup: 3,
-    spaceBetween: 34,
+    spaceBetween: 25,
     navigation: {
       nextEl: ".custom__pagination-nav--next-thanks",
       prevEl: ".custom__pagination-nav--previous-thanks",
@@ -92,13 +111,32 @@ document.addEventListener("DOMContentLoaded", () => {
         );
       },
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.3,
+        slidesPerGroup: 1,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 2.3,
+        slidesPerGroup: 2,
+      },
+      991: {
+        slidesPerView: 2.8,
+      },
+      1280: {
+        slidesPerView: 3.5,
+        slidesPerGroup: 3,
+        spaceBetween: 25,
+      },
+    },
   });
 
   // Category Details Page Slider
   var swiperDetails = new Swiper(".swiper--details", {
     slidesPerView: 2.5,
-    slidesPerGroup: 3,
-    spaceBetween: 34,
+    slidesPerGroup: 2,
+    spaceBetween: 25,
     navigation: {
       nextEl: ".custom__pagination-nav--next-details",
       prevEl: ".custom__pagination-nav--previous-details",
@@ -114,6 +152,23 @@ document.addEventListener("DOMContentLoaded", () => {
           (index + 1) +
           "</button>"
         );
+      },
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.3,
+        slidesPerGroup: 1,
+        spaceBetween: 16,
+      },
+      768: {
+        slidesPerView: 2.3,
+        slidesPerGroup: 2,
+        spaceBetween: 25,
+      },
+      1280: {
+        slidesPerView: 2.5,
+        slidesPerGroup: 2,
+        spaceBetween: 25,
       },
     },
   });
