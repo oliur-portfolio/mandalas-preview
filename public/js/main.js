@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Blur Scroll Card
   function initScrollBlurEffect(section) {
-    const cardContainer = section.querySelector(".custom__scrollbar--slide");
-    const blurGradient = section.querySelector(".blur__gradient--slide");
+    const cardContainer = section.querySelector(".custom__blur--basic");
+    const blurGradient = section.querySelector(".blur__gradient--basic");
 
     if (!cardContainer || !blurGradient) return;
 
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  document.querySelectorAll(".slide__scroll-section").forEach((section) => {
+  document.querySelectorAll(".scroll__blur--basic").forEach((section) => {
     initScrollBlurEffect(section);
   });
 
@@ -58,6 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
         .closest(".swiper__default-slider")
         .querySelector(".custom__pagination-nav--previous-default");
 
+      const blurGradient = swiperContainer
+        .closest(".scroll__blur--slider")
+        .querySelector(".blur__gradient--slider");
+
       var swiperDefault = new Swiper(swiperContainer, {
         slidesPerView: 3.5,
         slidesPerGroup: 3,
@@ -87,7 +91,58 @@ document.addEventListener("DOMContentLoaded", () => {
           },
         },
       });
+
+      swiperDefault.on("slideChange", function () {
+        if (swiperDefault.isEnd) {
+          console.log(blurGradient);
+          blurGradient.classList.add("hide");
+        } else {
+          blurGradient.classList.remove("hide");
+        }
+      });
     });
+
+  // document
+  //   .querySelectorAll(".swiper--default")
+  //   .forEach(function (swiperContainer) {
+  //     const nextEl = swiperContainer
+  //       .closest(".swiper__default-slider")
+  //       .querySelector(".custom__pagination-nav--next-default");
+
+  //     const prevEl = swiperContainer
+  //       .closest(".swiper__default-slider")
+  //       .querySelector(".custom__pagination-nav--previous-default");
+
+  //     var swiperDefault = new Swiper(swiperContainer, {
+  //       slidesPerView: 3.5,
+  //       slidesPerGroup: 3,
+  //       spaceBetween: 25,
+  //       navigation: {
+  //         nextEl: nextEl,
+  //         prevEl: prevEl,
+  //       },
+  //       loop: false,
+  //       breakpoints: {
+  //         0: {
+  //           slidesPerView: 1.3,
+  //           slidesPerGroup: 1,
+  //           spaceBetween: 16,
+  //         },
+  //         768: {
+  //           slidesPerView: 2.3,
+  //           slidesPerGroup: 2,
+  //         },
+  //         991: {
+  //           slidesPerView: 2.8,
+  //         },
+  //         1280: {
+  //           slidesPerView: 3.5,
+  //           slidesPerGroup: 3,
+  //           spaceBetween: 25,
+  //         },
+  //       },
+  //     });
+  //   });
 
   // Thanks Page Slider
   var swiperThanks = new Swiper(".swiper--thanks", {
@@ -132,6 +187,16 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
+  const blurGradientThanks = document.querySelector(".blur__gradient--thanks");
+
+  swiperThanks.on("slideChange", function () {
+    if (swiperThanks.isEnd) {
+      blurGradientThanks.classList.add("hide");
+    } else {
+      blurGradientThanks.classList.remove("hide");
+    }
+  });
+
   // Category Details Page Slider
   var swiperDetails = new Swiper(".swiper--details", {
     slidesPerView: 2.5,
@@ -171,6 +236,18 @@ document.addEventListener("DOMContentLoaded", () => {
         spaceBetween: 25,
       },
     },
+  });
+
+  const blurGradientDetails = document.querySelector(
+    ".blur__gradient--details"
+  );
+
+  swiperDetails.on("slideChange", function () {
+    if (swiperDetails.isEnd) {
+      blurGradientDetails.classList.add("hide");
+    } else {
+      blurGradientDetails.classList.remove("hide");
+    }
   });
 
   // Category Accessories Page Slider

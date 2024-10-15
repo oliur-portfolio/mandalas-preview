@@ -343,6 +343,14 @@
   );
 }
 
+.blur__gradient-gray {
+  background: linear-gradient(
+    90deg,
+    rgba(230, 230, 228, 0.1) 0%,
+    rgba(237, 236, 234, 1) 75%
+  );
+}
+
 .yellow__gradient {
   background: linear-gradient(
     130deg,
@@ -359,14 +367,16 @@
   );
 }
 
-.blur__gradient--slide {
+.custom__blur {
   opacity: 1;
-  transition: opacity 0.3s ease; /* Adjust duration and easing as needed */
+  visibility: visible;
+  transition: opacity 0.3s ease;
 }
 
-.blur__gradient--slide.hide {
+.custom__blur.hide {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .blue__gradient1 {

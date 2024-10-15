@@ -328,72 +328,79 @@
 
       <div class="bg-custom-gray-300 mt-3">
         <div class="wrapper">
-          <div class="py-10 flex items-center justify-between !hidden">
-            <div class="flex items-center gap-[55px]">
-              <button
-                class="flex items-center gap-5 text-custom-black-900 text-[18px] md:text-[26px] 2xl:text-[30px] font-circularStd font-normal"
-              >
-                <img class="w-fit h-[21px]" src="images/filter.svg" alt="" />
-                <span>Filter by:</span>
-              </button>
+          <div
+            class="py-8 md:py-10 flex items-center gap-6 md:gap-[55px] relative scroll__blur--basic"
+          >
+            <div
+              class="custom__blur blur__gradient-gray blur__gradient--basic absolute w-[93px] md:w-[200px] h-full top-1/2 -translate-y-1/2 -right-[37px] md:-right-[60px] z-30 xl:hidden"
+            ></div>
 
-              <ul class="flex-1 flex items-center gap-[54px]">
-                <li>
+            <button
+              class="flex items-center gap-3 md:gap-5 text-custom-black-900 text-[15px] md:text-[26px] 2xl:text-[30px] leading-none font-circularStd font-normal min-w-max"
+            >
+              <img
+                class="w-fit h-[11px] md:h-[21px]"
+                src="images/filter.svg"
+                alt=""
+              />
+              <span>Filter by:</span>
+            </button>
+
+            <div
+              class="flex-1 overflow-x-auto overflow-y-hidden scrollbar-none custom__blur--basic flex items-center justify-between gap-9"
+            >
+              <ul class="flex items-center gap-9 md:gap-10 xl:gap-[54px]">
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
-
-                <li>
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
-
-                <li>
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
-
-                <li>
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
-
-                <li>
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
-
-                <li>
+                <li class="min-w-max">
                   <button
-                    class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
+                    class="font-brandon text-[15px] md:text-[22px] 2xl:text-[25px] font-normal text-custom-black-900 underline"
                   >
                     Markers
                   </button>
                 </li>
               </ul>
-            </div>
 
-            <a
-              href="#"
-              class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-red underline uppercase"
-            >
-              50% OFF
-            </a>
+              <a
+                href="#"
+                class="font-brandon text-[15px] md:text-[20px] 2xl:text-[25px] font-normal text-custom-red underline uppercase min-w-max"
+              >
+                50% OFF
+              </a>
+            </div>
           </div>
         </div>
 
