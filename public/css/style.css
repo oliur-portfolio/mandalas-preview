@@ -2407,6 +2407,14 @@ input {
   padding-top: 56px;
 }
 
+.pt-\[130px\] {
+  padding-top: 130px;
+}
+
+.pt-\[110px\] {
+  padding-top: 110px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2473,6 +2481,10 @@ input {
 
 .text-\[60px\] {
   font-size: 60px;
+}
+
+.text-\[38px\] {
+  font-size: 38px;
 }
 
 .font-bold {
@@ -3058,7 +3070,7 @@ input {
   display: block;
 }
 
-/* Navbar Toggler */
+/* Navbar Togglerr */
 
 /* Custom CSS */
 
