@@ -927,6 +927,54 @@ input {
   --tw-contain-style:  ;
 }
 
+.font--60 {
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .font--60 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .font--60 {
+    font-size: 60px;
+  }
+}
+
+.font--30 {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .font--30 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .font--30 {
+    font-size: 30px;
+  }
+}
+
+.font--20 {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .font--20 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .font--20 {
+    font-size: 20px;
+  }
+}
+
 .wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -1634,6 +1682,10 @@ input {
   min-height: 330px;
 }
 
+.min-h-\[340px\] {
+  min-height: 340px;
+}
+
 .min-h-\[370px\] {
   min-height: 370px;
 }
@@ -1668,10 +1720,6 @@ input {
 
 .min-h-\[880px\] {
   min-height: 880px;
-}
-
-.min-h-\[340px\] {
-  min-height: 340px;
 }
 
 .\!w-auto {
@@ -1732,10 +1780,6 @@ input {
 
 .w-\[41px\] {
   width: 41px;
-}
-
-.w-\[45px\] {
-  width: 45px;
 }
 
 .w-\[500px\] {
@@ -2343,10 +2387,6 @@ input {
   padding-top: 100px;
 }
 
-.pt-\[186px\] {
-  padding-top: 186px;
-}
-
 .pt-\[187px\] {
   padding-top: 187px;
 }
@@ -2496,6 +2536,11 @@ input {
   color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
+.text-custom-black-50 {
+  --tw-text-opacity: 1;
+  color: rgb(47 47 47 / var(--tw-text-opacity));
+}
+
 .text-custom-black-500 {
   --tw-text-opacity: 1;
   color: rgb(71 71 71 / var(--tw-text-opacity));
@@ -2603,17 +2648,6 @@ input {
 .scrollbar-none::-webkit-scrollbar {
   display: none;
 }
-
-/* 
-
-50
-28
-18
-15
-12
-10
-
-*/
 
 .submenu__category--show .submenu__category {
   opacity: 1 !important;
@@ -2903,8 +2937,6 @@ input {
 
 /* Custom Scrollbar */
 
-/* Custom CSS */
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -3027,6 +3059,8 @@ input {
 }
 
 /* Navbar Toggler */
+
+/* Custom CSS */
 
 /* Responsive Design */
 
@@ -3600,6 +3634,10 @@ input {
     padding-bottom: 65px;
   }
 
+  .md\:pb-\[72px\] {
+    padding-bottom: 72px;
+  }
+
   .md\:pb-\[99px\] {
     padding-bottom: 99px;
   }
@@ -3634,6 +3672,10 @@ input {
 
   .md\:pt-\[65px\] {
     padding-top: 65px;
+  }
+
+  .md\:pt-\[84px\] {
+    padding-top: 84px;
   }
 
   .md\:pt-\[86px\] {

@@ -471,57 +471,63 @@
 
                     <!-- Single Input -->
                     <div class="">
-                      <label for="name" class="label__style">Name</label>
+                      <label for="email" class="label__style">Email</label>
 
                       <input
                         class="input__style"
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your Name"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your Email"
                       />
                     </div>
                     <!-- Single Input -->
 
                     <!-- Single Input -->
                     <div class="">
-                      <label for="name" class="label__style">Name</label>
+                      <label for="title" class="label__style"
+                        >Colouring Page Idea Title</label
+                      >
 
                       <input
                         class="input__style"
                         type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your Name"
+                        id="title"
+                        name="title"
+                        placeholder="Enter a Title"
                       />
                     </div>
                     <!-- Single Input -->
 
                     <!-- Single Input -->
                     <div class="">
-                      <label for="name" class="label__style">Name</label>
+                      <label for="category" class="label__style"
+                        >Category</label
+                      >
 
                       <input
                         class="input__style"
                         type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your Name"
+                        id="category"
+                        name="category"
+                        placeholder="Select a category"
                       />
                     </div>
                     <!-- Single Input -->
 
                     <!-- Single Input -->
                     <div class="md:col-span-2">
-                      <label for="name" class="label__style">Name</label>
+                      <label for="description" class="label__style"
+                        >Description</label
+                      >
 
                       <textarea
                         class="input__style input__style--textarea"
                         type="text"
                         rows="0"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your Name"
+                        id="description"
+                        name="description"
+                        placeholder="Describe your Coloruing Page Idea"
                       ></textarea>
                     </div>
                     <!-- Single Input -->
@@ -611,7 +617,7 @@
                       <button type="submit" class="custom__btn ml-auto">
                         <span>Upload Now</span>
                         <img
-                          class="w-[45px] h-[45px]"
+                          class="w-7 h-7 md:w-[45px] md:h-[45px]"
                           src="images/button-circle-arrow.svg"
                           alt="arrow"
                         />
@@ -626,9 +632,9 @@
         </div>
       </div>
 
-      <!-- Share Creativity -->
+      <!-- Request Form -->
       <section
-        class="relative min-h-[580px] md:min-h-[780px] xl:min-h-[630px] overflow-hidden bg-custom-white-400"
+        class="relative overflow-hidden bg-custom-white-400 py-12 md:pt-[84px] md:pb-[72px]"
       >
         <img
           class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%*1.2)] h-[calc(100%*1.5)] object-cover z-10"
@@ -636,48 +642,84 @@
           alt="doodle lines"
         />
 
-        <img
-          class="absolute -bottom-[60px] md:-bottom-[110px] xl:-top-2 left-1/2 -translate-x-1/2 xl:left-[-80px] xl:translate-x-0 2xl:-translate-x-1/2 2xl:left-[23%] z-30 w-[310px] md:w-[460px] xl:w-[660px] h-auto"
-          src="images/share-creativity.png"
-          alt="creativity"
-        />
-
-        <div class="wrapper">
-          <div
-            class="max-w-[600px] 2xl:max-w-[717px] w-full mx-auto xl:mr-0 xl:ml-auto relative z-40 mt-9 md:mt-14 xl:mt-[214px] 2xl:mr-[83px] text-center xl:text-left"
-          >
-            <h2
-              class="text-[28px] md:text-[50px] 2xl:text-[60px] text-custom-black-600"
-            >
-              SHARE YOUR
-              <span class="text-custom-orange">CREATIVITY</span>
+        <div class="wrapper relative z-40">
+          <div class="max-w-[817px] w-full mx-auto text-center">
+            <h2 class="font--60 text-custom-black-50">
+              DO YOU HAVE A REQUESTS?
             </h2>
 
-            <h3
-              class="text-[18px] md:text-[26px] 2xl:text-[30px] font-bold text-custom-black-600 mt-3 md:mt-5"
-            >
-              Upload your ideas and get inspired
+            <h3 class="font--30 font-medium mt-2">
+              Share any suggestions with us
             </h3>
 
-            <p
-              class="text-[12px] md:text-[18px] 2xl:text-[20px] font-circularStd font-normal text-custom-black-500 mt-[5px]"
-            >
+            <p class="font--20 text-custom-gray-200 mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
+          </div>
 
-            <a href="#" class="custom__btn mx-auto xl:mx-0 mt-6 md:mt-8">
+          <form action="" class="mt-9">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-x-10 md:gap-y-8"
+            >
+              <!-- Single Input -->
+              <div class="">
+                <label for="reqname" class="label__style">Name</label>
+
+                <input
+                  class="input__style input__style--secondary"
+                  type="text"
+                  id="reqname"
+                  name="reqname"
+                  placeholder="Enter your Name"
+                />
+              </div>
+              <!-- Single Input -->
+
+              <!-- Single Input -->
+              <div class="">
+                <label for="reqemail" class="label__style">Email</label>
+
+                <input
+                  class="input__style input__style--secondary"
+                  type="text"
+                  id="reqemail"
+                  name="reqemail"
+                  placeholder="Enter your Email"
+                />
+              </div>
+              <!-- Single Input -->
+
+              <!-- Single Input -->
+              <div class="md:col-span-2">
+                <label for="reqdescription" class="label__style"
+                  >Description</label
+                >
+
+                <textarea
+                  class="input__style input__style--secondary input__style--textarea"
+                  type="text"
+                  rows="0"
+                  id="reqdescription"
+                  name="reqdescription"
+                  placeholder="Describe your Coloruing Page Idea"
+                ></textarea>
+              </div>
+              <!-- Single Input -->
+            </div>
+
+            <button type="submit" class="custom__btn mx-auto mt-8 md:mt-12">
               <span>Upload Now</span>
               <img
                 class="w-7 h-7 md:w-[45px] md:h-[45px]"
                 src="images/button-circle-arrow.svg"
                 alt="arrow"
               />
-            </a>
-          </div>
+            </button>
+          </form>
         </div>
       </section>
-      <!-- Share Creativity -->
+      <!-- Request Form -->
 
       <!-- Newsletter Area -->
       <section

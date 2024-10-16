@@ -126,17 +126,6 @@
   }
 }
 
-/* 
-
-50
-28
-18
-15
-12
-10
-
-*/
-
 @layer components {
   .font--150 {
     @apply text-[90px] 2xl:text-[150px];
@@ -526,8 +515,6 @@
 }
 /* Custom Scrollbar */
 
-/* Custom CSS */
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -650,6 +637,8 @@
 }
 
 /* Navbar Toggler */
+
+/* Custom CSS */
 
 /* Responsive Design */
 
