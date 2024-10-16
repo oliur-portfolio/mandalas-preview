@@ -2383,8 +2383,8 @@ input {
   padding-top: 2rem;
 }
 
-.pt-\[100px\] {
-  padding-top: 100px;
+.pt-\[110px\] {
+  padding-top: 110px;
 }
 
 .pt-\[187px\] {
@@ -2405,14 +2405,6 @@ input {
 
 .pt-\[56px\] {
   padding-top: 56px;
-}
-
-.pt-\[130px\] {
-  padding-top: 130px;
-}
-
-.pt-\[110px\] {
-  padding-top: 110px;
 }
 
 .text-center {
@@ -2463,6 +2455,10 @@ input {
   font-size: 30px;
 }
 
+.text-\[38px\] {
+  font-size: 38px;
+}
+
 .text-\[40px\] {
   font-size: 40px;
 }
@@ -2481,10 +2477,6 @@ input {
 
 .text-\[60px\] {
   font-size: 60px;
-}
-
-.text-\[38px\] {
-  font-size: 38px;
 }
 
 .font-bold {
@@ -3070,7 +3062,7 @@ input {
   display: block;
 }
 
-/* Navbar Togglerr */
+/* Navbar Toggler */
 
 /* Custom CSS */
 
