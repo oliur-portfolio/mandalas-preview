@@ -207,11 +207,11 @@
   }
 
   .nav__link {
-    @apply text-[20px] 2xl:text-[25px] font-circularStd font-normal text-custom-black py-[18px] px-[25px] rounded-lg;
+    @apply text-[15px] md:text-[20px] 2xl:text-[25px] font-circularStd font-bold xl:font-normal text-custom-black py-[23px] xl:py-[18px] px-[25px] rounded-lg bg-custom-gray-50 xl:bg-transparent block w-full text-center xl:w-auto;
   }
 
   .nav__link--active {
-    @apply bg-custom-white font-bold;
+    @apply xl:bg-custom-white font-bold;
   }
 
   .label__style {
@@ -592,7 +592,72 @@
   opacity: 1;
 }
 
+/* Navbar Toggler */
+.toggle-bar {
+  margin-bottom: 2px;
+  display: block;
+  height: 3px;
+  width: 22px;
+  --tw-bg-opacity: 1;
+  background-color: #2f2f2f;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  border-radius: 1.5px;
+  -webkit-border-radius: 1.5px;
+  -moz-border-radius: 1.5px;
+  -ms-border-radius: 1.5px;
+  -o-border-radius: 1.5px;
+}
+
+.toggle-bar:last-of-type {
+  margin-bottom: 0;
+}
+
+.navbar__toggler.change .bar1 {
+  transform: rotate(-40deg) translate(-2px, 3px);
+  -webkit-transform: rotate(-40deg) translate(-2px, 3px);
+  -moz-transform: rotate(-40deg) translate(-2px, 3px);
+  -ms-transform: rotate(-40deg) translate(-2px, 3px);
+  -o-transform: rotate(-40deg) translate(-2px, 3px);
+}
+
+.navbar__toggler.change .bar2 {
+  opacity: 0;
+}
+
+.navbar__toggler.change .bar3 {
+  transform: rotate(40deg) translate(-1px, -1px);
+  -webkit-transform: rotate(40deg) translate(-1px, -1px);
+  -moz-transform: rotate(40deg) translate(-1px, -1px);
+  -ms-transform: rotate(40deg) translate(-1px, -1px);
+  -o-transform: rotate(40deg) translate(-1px, -1px);
+}
+
+.header__mobile.show {
+  background: #fff;
+  height: 100vh;
+}
+
+.mobile__nav-content {
+  display: none;
+}
+
+.header__mobile.show .mobile__nav-content {
+  display: block;
+}
+
+/* Navbar Toggler */
+
 /* Responsive Design */
+
+@media (max-width: 1280.98px) {
+  .nav__link--active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
 
 @media (max-width: 767.98px) {
   .slider__nav--default .swiper-pagination-bullet {

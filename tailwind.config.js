@@ -30,6 +30,7 @@ module.exports = {
         "custom-black-700": "#4D4D4D",
         "custom-black-800": "#383838",
         "custom-black-900": "#292929",
+        "custom-gray-50": "#EDECEA",
         "custom-gray-100": "#EDECE8",
         "custom-gray-150": "#989898",
         "custom-gray-200": "#515151",

@@ -1,5 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Blur Scroll Card
+  // Navbar Toggler
+  const mobileHeader = document.querySelector(".header__mobile");
+  const navbarToggler = document.querySelector(".navbar__toggler");
+
+  navbarToggler.addEventListener("click", () => {
+    mobileHeader.classList.toggle("show");
+    navbarToggler.classList.toggle("change");
+    document.body.classList.toggle("overflow-hidden");
+  });
+
+  // Blur Scroll Filter
   function initScrollBlurEffect(section) {
     const cardContainer = section.querySelector(".custom__blur--basic");
     const blurGradient = section.querySelector(".blur__gradient--basic");
@@ -101,48 +111,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
-
-  // document
-  //   .querySelectorAll(".swiper--default")
-  //   .forEach(function (swiperContainer) {
-  //     const nextEl = swiperContainer
-  //       .closest(".swiper__default-slider")
-  //       .querySelector(".custom__pagination-nav--next-default");
-
-  //     const prevEl = swiperContainer
-  //       .closest(".swiper__default-slider")
-  //       .querySelector(".custom__pagination-nav--previous-default");
-
-  //     var swiperDefault = new Swiper(swiperContainer, {
-  //       slidesPerView: 3.5,
-  //       slidesPerGroup: 3,
-  //       spaceBetween: 25,
-  //       navigation: {
-  //         nextEl: nextEl,
-  //         prevEl: prevEl,
-  //       },
-  //       loop: false,
-  //       breakpoints: {
-  //         0: {
-  //           slidesPerView: 1.3,
-  //           slidesPerGroup: 1,
-  //           spaceBetween: 16,
-  //         },
-  //         768: {
-  //           slidesPerView: 2.3,
-  //           slidesPerGroup: 2,
-  //         },
-  //         991: {
-  //           slidesPerView: 2.8,
-  //         },
-  //         1280: {
-  //           slidesPerView: 3.5,
-  //           slidesPerGroup: 3,
-  //           spaceBetween: 25,
-  //         },
-  //       },
-  //     });
-  //   });
 
   // Thanks Page Slider
   var swiperThanks = new Swiper(".swiper--thanks", {
